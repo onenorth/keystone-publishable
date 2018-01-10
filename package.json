@@ -1,0 +1,19 @@
+{
+  "name": "keystone-publishable",
+  "version": "1.0.0",
+  "description": "Publish items to multiple KeystoneJS instances",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onenorth/keystone-publishable.git"
+  },
+  "author": "Ryan Haskell-Glatz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onenorth/keystone-publishable/issues"
+  },
+  "homepage": "https://github.com/onenorth/keystone-publishable#readme"
+}
