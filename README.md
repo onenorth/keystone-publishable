@@ -96,7 +96,7 @@ const publishable = require('keystone-publishable')
 keystone.init( /* ... */ )
 
 // 2. Initialize this plugin
-publishable.init({
+publishable({
   keystone,
   connectionString: 'mongodb://localhost/live-database',
   liveUrl: 'https://www.yoursite.com',
