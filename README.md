@@ -5,7 +5,7 @@
 ### Installation
 
 ```
-npm install --save git://github.com/onenorth/keystone-publishable.git#1.0.0
+npm install --save git://github.com/onenorth/keystone-publishable.git#2.0.0
 ```
 
 
@@ -96,7 +96,7 @@ const publishable = require('keystone-publishable')
 keystone.init( /* ... */ )
 
 // 2. Initialize this plugin
-publishable({
+publishable.init({
   keystone,
   connectionString: 'mongodb://localhost/live-database',
   liveUrl: 'https://www.yoursite.com',
