@@ -40,9 +40,9 @@ The `keystone` npm package that your project is using.
 
 __Default__: `undefined`
 
-This is the MongoDB connection string to your live content database.
+This is the MongoDB connection string to your __live__ database.
 
-_Note: If the `MONGO_URI` environment variable matches this value, then publish events will not fire off._
+_Note: If the `MONGO_URI` environment variable matches this value, the admin UI will be read only._
 
 
 #### `liveUrl`
