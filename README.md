@@ -100,7 +100,6 @@ publishable({
   keystone,
   connectionString: 'mongodb://localhost/live-database',
   liveUrl: 'https://www.yoursite.com',
-  previewUrl: 'https://www.yoursite.com',
   previewUrl: 'https://preview.yoursite.com',
   showLiveContentUrl: false,
   forcePublishRegardlessOfStatus: false
